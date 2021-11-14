@@ -1,24 +1,397 @@
+body{
+	font-family: Arlial, sans-serif;
+}
+
 .shabka{
 	width: 100%;
 	height: 60px;
 	background: #344051;
 }
+
 .logo{
-	float: left;
 	color: #fff;
 	font-size: 28px;
 	line-height: 60px;
-	padding-left: 388px;
+	padding-left: 250px;
+	float: left;
 }
+
 .menu{
 	float: left;
-	padding-left: 432px;
+	padding-left: 183px;
 }
+
 .menu li{
 	float: left;
 	line-height: 60px;
+	color: #fff;
 	margin-right: 40px;
 	font-size: 16px;
-	color: #fff;
 	text-transform: uppercase;
+}
+
+.main{
+	width: 100%;
+	height: calc(100% - 60px);
+	background: url(../img/boy.png) 90% 100%/auto 85% no-repeat, url(../img/bg.jpg) center/cover no-repeat;
+
+}
+
+.tittle__conteiner{
+	float: left;
+	margin: 200px 0px 0px 200px;
+	color: #2c384a;
+	text-align: center;
+}
+
+.tittle__conteiner h1{
+	font-size: 60px;
+	font-weight: bold;
+}
+
+.tittle__conteiner h4{
+	margin-top: 40px;
+	font-size: 22px;
+	color: #79818d;
+}
+
+.tittle__conteiner input{
+	height: 40px;
+	text-align: center;
+	border: 2px solid #6d7682;
+	background: none;
+	border-radius: 5px;
+	font-size: 13px;
+	padding: 0px 16px;
+	margin: 50px 14px 0px 14px;
+	color: #6f707e;
+}
+
+.information{
+	width: 100%;
+	height: 600px;
+	background: url(../img/knopka1.png) no-repeat 46% 88%/1.2% auto ,url(../img/palka.png) 50% 27.5%/5% no-repeat ,url(../img/ava.png) no-repeat 50% 45.5%/10% auto ,url(../img/bg1.jpg) center/cover no-repeat;
+}
+
+.information h2{
+	padding: 112px 0px 0px 655px;
+	font-size: 25px;
+	text-transform: uppercase;
+	color: #263244;
+	font-weight: bold;
+}
+
+.information1{
+	padding: 250px 0px 0px 405px;
+	color: #3f495a;
+}
+
+.information2{
+	padding: 30px 0px 0px 405px;
+	color: #3f495a;
+}
+
+.information input{
+	margin: 30px 0px 0px 638px;
+	height: 40px;
+	text-align: center;
+	border: 2px solid #6d7682;
+	background: none;
+	border-radius: 5px;
+	font-size: 12px;
+	padding: 5px 5px 5px 36px;
+	color: #6f707e;
+	font-weight: 700;
+}
+
+.make{
+	width: 100%;
+	height: 525px;
+	background: url(../img/gromophon.png) no-repeat 89% 53% ,url(../img/znak.png) no-repeat 37% 53% ,url(../img/roket.png) no-repeat 63% 53%,url(../img/noyt.png) no-repeat 11.2% 53% ,url(../img/palka.png) no-repeat 50% 33% ,url(../img/bg2.jpg) center/cover no-repeat;
+}
+
+.make h2{
+	padding: 107px 0px 0px 635px;
+	font-size: 30px;
+	color: #263244;
+}
+
+.make th{
+	max-width: 1170px;
+	margin: auto;
+	margin: 0px 10px;
+	padding: 200px 100px 15px 100px;
+	color: #cf7600 ; 
+	font-size: 15px;
+}
+
+.make td{
+	max-width: 1170px;
+	padding-left: 100px;
+	padding-right: 100px;  
+	text-align: center;
+	font-size: 13px;
+	color: #3f495a;
+
+}
+
+.keis{
+	width: 100%;
+	height: 1100px;
+	background: url(../img/palka.png) no-repeat 50% 16% ,url(../img/fotka.png) no-repeat 0% 60%/90% auto , url(../img/bg3.jpg) no-repeat center/cover ;
+}
+
+.keis h2{
+	padding: 107px 0px 0px 671px;
+	font-size: 30px;
+	color: #263244;
+}
+
+.keis1{
+	padding: 70px 0px 0px 350px;
+	font-size: 13px;
+}
+
+.keis table{
+	padding: 0 300px;
+	margin-top: 600px;
+	color: #384354
+
+}
+
+.keis td{
+	width: auto;
+}
+
+.client{
+	font-size: 19px
+}
+
+.kompany{
+	font-size: 15px;
+}
+
+.vivi{
+	padding-left: 100px;
+
+}
+
+.kgkgkg{
+	padding-top: 20px;
+	}
+
+.hghghg{
+	padding-top: 10px; 
+}
+
+.keis input{
+	margin: 50px 0px 0px 300px;
+	height: 40px;
+	text-align: center;
+	border: 2px solid #63b5ae;
+	background: #63b5ae;
+	border-radius: 5px;
+	font-size: 13px;
+	padding: 0px 16px;
+	color: #fff;
+}
+
+.cost{
+	width: 100%;
+	height: 700px;
+	background: url(../img/lain.png) no-repeat 65% 77%,#fff center/cover no-repeat; 
+}
+
+.cost3{
+	padding: 60px 0px 0px 360px;
+}
+
+.cost h2{
+	padding: 50px 0px 0px 290px;
+	font-size: 30px
+}
+
+.tip{
+	padding: 60px 0px 20px 0px;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.list1{
+	font-size: 16px;
+	border: 1px solid;
+	background: #eee;
+	color: #737373;
+}
+
+.list2{
+	font-size: 16px;
+	border: 1px solid;
+	background: #eee;
+	color: #737373;
+}
+
+.list3{
+	font-size: 16px;
+	border: 1px solid;
+	background: #eee;
+	color: #737373;
+}
+
+.cena{
+	padding-top: 50px;
+	padding-bottom: 10px;
+}
+
+.cost h4{
+	font-size: 16px;
+}
+
+.statistica{
+	width: 100%;
+	height: 500px;
+	background: url(../img/smail.png) no-repeat 28% 50%/3.5% auto,url(../img/skobki.png) no-repeat 45% 50%/3.5% auto,url(../img/galochka.png) no-repeat 62% 50%/3.5% auto,url(../img/kubok.png) no-repeat 79.7% 50%/3.5% auto,url(../img/palka.png) no-repeat 55% 25%,url(../img/bgstatistika.jpg) no-repeat center/cover;
+}
+.statistica h2{
+	padding: 70px 0px 0px 650px;
+	font-size: 28px;
+	color: #323e4f
+}
+
+.statistica table{
+	padding: 200px 0px 0px 220px;
+}
+
+.statistica td{
+	padding: 10px 0px 0px 110px;
+	font-size: 15px;
+	color: #323e4f
+}
+
+.statistica th{
+	padding: 0px 0px 0px 110px;
+	font-size: 30px;
+	color: #323e4f
+}
+
+.otziv{
+	width: 100%;
+	height: 500px;
+	background: url(../img/fotka1.png) no-repeat 50% 40%/6% auto,url(../img/palka.png) no-repeat 50% 22%,#fff;
+}
+
+.otziv h2{
+	padding: 50px 0px 0px 665px;
+	font-size: 30px;
+	color: #243042;
+}
+
+.otziv h6{
+	padding: 200px 0px 0px 0px;
+	text-align: center;
+}
+
+.otziv h5{
+	padding: 50px 0px 0px 580px;
+}
+
+.text_input1{
+ margin: 50px 0px 0px 680px;
+}
+
+.moimontakti{
+	width: 100%;
+	height: 800px;
+	background: url(../img/geo.png) no-repeat 36% 33%/1.2% auto,url(../img/konvertt.png) no-repeat 50% 33%/1.7% auto,url(../img/trubkaa.png) no-repeat 64% 33%/1.7% auto,url(../img/palka.png) no-repeat no-repeat 50% 20%,url(../img/bgnomer.jpg) no-repeat center/cover;
+	color: #fff;
+}
+
+.moimontakti h2{
+	padding: 100px 0px 0px 620px;
+	font-size: 30px;
+}
+
+.moimontakti h5{
+	padding: 80px 0px 0px 460px;
+	font-size: 13px;
+}
+
+.moimontakti table{
+	font-size: 13px;
+}
+
+.sviazka1{
+	padding: 80px 0px 0px 470px;
+}
+
+.sviazka2{
+	padding: 80px 0px 0px 70px;
+}
+
+.sviazka4{
+	padding: 10px 0px 0px 455px;
+}
+
+.sviazka3{
+	padding: 80px 0px 0px 70px;
+}
+
+.coobshenie{
+	padding: 50px 0px 0px 610px;
+	font-size: 20px;
+}
+
+.coobshenie1{
+	margin: 50px 0px 0px 400px;
+	padding: 5px 5px 5px 200px;
+}
+
+.coobshenie2{
+	margin: 0px 0px 0px 10px;
+	padding: 5px 5px 5px 200px;
+}
+
+.coobshenie3{
+	margin: 10px 0px 0px 400px;
+
+}
+
+.coobshenie5{
+	margin: 30px 0px 0px 690px;
+	height: 40px;
+	text-align: center;
+	border: 2px solid #fff;
+	background: none;
+	border-radius: 5px;
+	font-size: 13px;
+	padding: 0px 16px;
+	color: #fff;
+}
+
+.karta{
+	width: 100%;
+	height: 300px;
+	background: url(../img/karta.jpg) no-repeat center/cover;
+}
+
+.karta input{
+	margin: 120px 0px 0px 700px;
+	height: 40px;
+	text-align: center;
+	background: #fff;
+	font-size: 13px;
+	padding: 0px 16px;
+	color: #000;
+}
+
+.niz{
+	width: 100%;
+	height: 50px;
+	background: url(../img/me.jpg) no-repeat center/cover;
+}
+
+.niz h6{
+	padding: 20px 0px 0px 680px;
+	color: #fff;
+	font-size: 13px;
 }
