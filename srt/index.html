@@ -11,44 +11,117 @@
 	<title>Андрей Браун - Веб разроботчик</title>
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 
 <body>
 
-	<div class="preloader">
-		<div class="preloader__row">
-		  <div class="preloader__item"></div>
-		  <div class="preloader__item"></div>
-		</div>
-	  </div>
+	<header>
+		<nav class="shabka">
+			<div class="container">
+				<div class="row">
+					<div class="col-xxl-2 col-lg-3 col-7">
+						<div class="logo">Андрей Браун</div>
+					</div>
+					<div class="px-0 col-xxl-6 col-xl-7 col-lg-8 offset-xxl-4 offset-xl-2 offset-lg-1
+					d-none d-lg-block">
+						<div class="menu">
+							<ul>
+								<li><a href="#">обо мне</a></li>
+								<li><a href="#">услуги</a></li>
+								<li><a href="#">кейсы</a></li>
+								<li><a href="#">прайс</a></li>
+								<li><a href="#">отзывы</a></li>
+								<li><a href="#">контакты</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-5 d-flex d-lg-none flex-column justify-content-center align-items-end">
+						<div class="dropdown">
+							<a class="btn btn-outline-secondary dropdown-toggle whitebtn" href="#" role="button"
+								id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+								навигация
+							</a>
 
+							<ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+								<li><a class="dropdown-item" href="#">обо мне</a></li>
+								<li><a class="dropdown-item" href="#">Услуги</a></li>
+								<li><a class="dropdown-item" href="#">кейсы</a></li>
+								<li><a class="dropdown-item" href="#">прайс</a></li>
+								<li><a class="dropdown-item" href="#">отзывы</a></li>
+								<li><a class="dropdown-item" href="#">контакты</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+		</nav>
 	</header>
 
 	<main class="main">
-		<div class="tittle__conteiner">
-			<h1>Привет <br> Я Андрей Браун</h1>
-			<h4>фулл стек веб-разработчик</h4>
-			<input type="submit" value="обо мне">
-			<input type="submit" value="мои работы">
+		<div class="container h-100">
+			<div class="row align-items-center h-100">
+				<div class="col-lg-6 mt-5 pt-5">
+					<div class="tittle__conteiner mt-5">
+						<h1>Привет <br> Я Андрей Браун</h1>
+						<h4>фулл стек веб-разработчик</h4>
+						<input type="submit" value="обо мне">
+						<input type="submit" value="мои работы">
+					</div>
+				</div>
+			</div>
 		</div>
 	</main>
 
 	<div class="information">
-		<h2>Обо мне</h2>
-		<img class="informationpalka" src="/Applications/project/srt/img/palka.png" alt="#">
-		<h5 class="information1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec omare
-			diam. Sed commodo nibh ante<br> facilisis bibendu dolor feugiat at. Duis sed dapibus leo nec ornare dian
-			commodo nibh.</h5>
-		<h5 class="information2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec omare
-			diam. Sed commodo nibh ante<br> facilisis bibendu dolor feugiat at. Duis sed dapibus leo nec ornare dian
-			commodo nibh.</h5>
+		<div class="container">
+			<div class="row d-flex justify-content-center py-4 ">
+				<div class="col-lg-2 col-md-3 col-sm-4 py-5 ">
+					<h2>Обо мне</h2>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row d-flex justify-content-center">
+				<div class="col-lg-8">
+					<h5 class="information1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed
+						dapibusleo nec omare
+						diam. Sed commodo nibh ante<br> facilisis bibendu dolor feugiat at. Duis sed dapibus leo
+						necornare dian
+						commodo nibh.</h5>
+				</div>
+			</div>
+		</div>
 
-		<input type="submit" value="Скачать резюме">
+		<div class="container">
+			<div class="row d-flex justify-content-center my-4 ">
+				<div class="col-lg-8">
+					<h5 class="information2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus
+						leo nec omare
+						diam. Sed commodo nibh ante<br> facilisis bibendu dolor feugiat at. Duis sed dapibus leo nec
+						ornare dian
+						commodo nibh.</h5>
+				</div>
+			</div>
+		</div>
 
-	</div>
+		<div class="container">
+			<div class="row d-flex justify-content-center my-4">
+				<div class="col-lg-2 col-md-3 col-sm-4 ">
+					<input type="submit" value="Скачать резюме">
+				</div>
+			</div>
+		</div>
 
 	<div class="make">
-		<h2>Что я умею</h2>
+		<div class="container">
+			<div class="row d-flex justify-content-center my-4 py-5">
+				<div class="col-lg-2 py-5">
+					<h2>Что я умею</h2>
+				</div>
+			</div>
+		</div>
 		<table class="mtb">
 			<tr>
 				<th>Веб-дизайн</th>
@@ -200,6 +273,8 @@
 	<div class="niz">
 		<h6>made by sleger</h6>
 	</div>
+
+	<script src="js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

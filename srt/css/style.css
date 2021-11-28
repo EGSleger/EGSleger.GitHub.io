@@ -1,86 +1,19 @@
  .body{
 	font-family: Arlial, sans-serif;
 }
-.preloader {
-	position: fixed;
-	left: 0;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	background: #e0e0e0;
-	z-index: 1001;
-  }
-  
-  .preloader__row {
-	position: relative;
-	top: 50%;
-	left: 50%;
-	width: 70px;
-	height: 70px;
-	margin-top: -35px;
-	margin-left: -35px;
-	text-align: center;
-	animation: preloader-rotate 2s infinite linear;
-  }
-  
-  .preloader__item {
-	position: absolute;
-	display: inline-block;
-	top: 0;
-	background-color: #337ab7;
-	border-radius: 100%;
-	width: 35px;
-	height: 35px;
-	animation: preloader-bounce 2s infinite ease-in-out;
-  }
-  
-  .preloader__item:last-child {
-	top: auto;
-	bottom: 0;
-	animation-delay: 5s;
-  }
-  
-  @keyframes preloader-rotate {
-	from{
-	  transform: rotate(360deg);
-	}
-  }
-  
-  @keyframes preloader-bounce {
-  
-	0%,
-	100%  {
-	  transform: scale(0);
-	}
-  
-	50% {
-	  transform: scale(1);
-	}
-  }
-  
-  .loaded_hiding .preloader {
-	transition: 0.3s opacity;
-	opacity: 0;
-  }
-  
-  .loaded .preloader {
-	display: none;
-  }
-
 
 .shabka{
 	width: 100%;
 	height: 60px;
 	background: #344051;
 	position: fixed;
-	z-index: 1;
+	z-index: 10;
 }
 
 .logo {
 	color: #fff;
 	font-size: 28px;
 	line-height: 60px;
-	padding-left: 250px;
 	float: left;
 	-webkit-animation: comming 2s ease;
 	-o-animation: comming 2s ease;
@@ -89,7 +22,7 @@
 
 .menu{
 	float: left;
-	padding-left: 183px;
+	position: fixed;
 }
 
 	.menu li {
@@ -97,7 +30,7 @@
 		line-height: 60px;
 		color: #fff;
 		margin-right: 40px;
-		font-size: 16px;
+		font-size: 14px;
 		text-transform: uppercase;
 		-webkit-animation: topshift 0.4s forwards ease;
 		-o-animation: topshift 0.4s forwards ease;
@@ -113,18 +46,19 @@
 }
 
 .tittle__conteiner{
-	float: left;
-	margin: 200px 0px 0px 200px;
 	color: #2c384a;
 	text-align: center;
+	width: 100%;
 	-webkit-animation: titlemuve 2.4s forwards ease;
 	-o-animation: titlemuve 2.4s forwards ease;
 	animation: titlemuve 2.4s forwards ease;
+	opacity: 0;
 }
 
 .tittle__conteiner h1{
-	font-size: 60px;
-	font-weight: bold;
+	font-family: Arial, sans-serif;
+	font-size: 72px;
+	font-weight: 600;
 }
 
 .tittle__conteiner h4{
@@ -147,54 +81,44 @@
 
 .information{
 	width: 100%;
-	height: 600px;
-	background: url(../img/knopka1.png) no-repeat 46% 88%/1.2% auto ,url(../img/ava.png) no-repeat 50% 45.5%/10% auto ,url(../img/bg1.jpg) center/cover no-repeat;
+	height: 100%;
+	background: url(../img/knopka1.png) no-repeat 45.2% 87%/1.2% auto ,url(../img/ava.png) no-repeat 47% 35%/10% auto ,url(../img/bg1.jpg) center/cover no-repeat;
 }
 
 .information h2{
-	padding: 112px 0px 0px 655px;
 	font-size: 25px;
 	text-transform: uppercase;
 	color: #263244;
 	font-weight: bold;
-	-webkit-animation: informationh2 2s forwards ease;
+	/*-webkit-animation: informationh2 2s forwards ease;
 	-o-animation: informationh2 2s forwards ease;
 	animation: informationh2 2s forwards ease;
 	animation-delay: 5s;
-	opacity: 0;
-}
-
-.informationpalka{
-	padding: 30px 0px 0px 680px;
-	-webkit-animation: informationh2 2s forwards ease;
-	-o-animation: informationh2 2s forwards ease;
-	animation: informationh2 2s forwards ease;
-	animation-delay: 5s;
-	opacity: 0;
+	opacity: 0;*/
 }
 
 .information1{
-	padding: 215px 0px 0px 405px;
+	margin-top: 170px;
+	font-size: 13px;
 	color: #3f495a;
-	-webkit-animation: informationh5 2s forwards ease;
+	/*-webkit-animation: informationh5 2s forwards ease;
 	-o-animation: informationh5 2s forwards ease;
 	animation: informationh5 2s forwards ease;
 	opacity: 0;
-	animation-delay: 6s;
+	animation-delay: 6s;*/
 }
 
 .information2{
-	padding: 30px 0px 0px 405px;
+	font-size: 13px;
 	color: #3f495a;
-	-webkit-animation: informationh5 2s forwards ease;
+	/*-webkit-animation: informationh5 2s forwards ease;
 	-o-animation: informationh5 2s forwards ease;
 	animation: informationh5 2s forwards ease;
 	opacity: 0;
-	animation-delay: 6s;
+	animation-delay: 6s;*/
 }
 
 .information input{
-	margin: 30px 0px 0px 638px;
 	height: 40px;
 	text-align: center;
 	border: 2px solid #6d7682;
@@ -208,33 +132,13 @@
 
 .make{
 	width: 100%;
-	height: 525px;
+	height: 700px;
 	background: url(../img/gromophon.png) no-repeat 89% 53% ,url(../img/znak.png) no-repeat 37% 53% ,url(../img/roket.png) no-repeat 63% 53%,url(../img/noyt.png) no-repeat 11.2% 53% ,url(../img/palka.png) no-repeat 50% 33% ,url(../img/bg2.jpg) center/cover no-repeat;
 }
 
 .make h2{
-	padding: 107px 0px 0px 635px;
 	font-size: 30px;
 	color: #263244;
-}
-
-.make th{
-	max-width: 1170px;
-	margin: auto;
-	margin: 0px 10px;
-	padding: 200px 100px 15px 100px;
-	color: #cf7600 ; 
-	font-size: 15px;
-}
-
-.make td{
-	max-width: 1170px;
-	padding-left: 100px;
-	padding-right: 100px;  
-	text-align: center;
-	font-size: 13px;
-	color: #3f495a;
-
 }
 
 .keis{
@@ -255,36 +159,13 @@
 }
 
 .keis table{
-	padding: 0 300px;
+	padding: 0px 300px;
 	margin-top: 600px;
-	color: #384354
+	color: #384354;
 
 }
 
-.keis td{
-	width: auto;
-}
 
-.client{
-	font-size: 19px
-}
-
-.kompany{
-	font-size: 15px;
-}
-
-.vivi{
-	padding-left: 100px;
-
-}
-
-.kgkgkg{
-	padding-top: 20px;
-	}
-
-.hghghg{
-	padding-top: 10px; 
-}
 
 .keis input{
 	margin: 50px 0px 0px 300px;
@@ -310,7 +191,7 @@
 
 .cost h2{
 	padding: 50px 0px 0px 290px;
-	font-size: 30px
+	font-size: 30px;
 }
 
 .tip{
@@ -380,13 +261,13 @@
 .statistica td{
 	padding: 10px 0px 0px 110px;
 	font-size: 15px;
-	color: #323e4f
+	color: #323e4f;
 }
 
 .statistica th{
 	padding: 0px 0px 0px 110px;
 	font-size: 30px;
-	color: #323e4f
+	color: #323e4f;
 }
 
 .otziv{
@@ -472,7 +353,7 @@
 
 .coobshenie3{
 	margin: 10px 0px 0px 400px;
-	padding: 5px 5px 5px 500px	
+	padding: 5px 5px 5px 500px;	
 
 }
 
@@ -521,6 +402,7 @@
 	color: #fff;
 	transform: scale(1);
 	display: inline-block;
+	text-decoration: none;
 }
 
 .menu li a:visited {
@@ -699,5 +581,32 @@
 	to{
 		margin-left: 0px;
 		opacity: 1;
+	}
+}
+
+.whitebtn:visited{
+	color: white;
+}
+
+@media (max-width: 991px){
+	.tittle__conteiner,.tittle__conteiner h4,.tittle__conteiner input{
+		color: white;
+		position: relative;
+		z-index: 3;
+	}
+	.main{
+		position: relative;
+	}
+	.tittle__conteiner input{
+		border: 2px solid #6d7682;
+	}
+	.main::after{
+		content: "";
+		bottom: 0;
+		top: 0;
+		right: 0;
+		left: 0;
+		position: absolute;
+		background: rgba(0,0,0,0.4);
 	}
 }
